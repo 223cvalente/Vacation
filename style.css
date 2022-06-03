@@ -1,12 +1,6 @@
 body {
     font-family:sans-serif
   }
-  h3, h4 {
-    font-size: 50px;
-    color: #111;
-    font-family:Georgia, 'Times New Roman', Times, serif;
- 
-  }
   .container {
     padding: 80px 120px;
   }
@@ -85,14 +79,7 @@ body {
     height: 400px;
     filter: grayscale(100%);
   }  
-  .navbar {
-    font-family: Montserrat, sans-serif;
-    margin-bottom: 0;
-     background-color: #77c2d3;
-    border: 0;
-    font-size: 15px !important;
-  
-  }
+ 
  
   .open .dropdown-toggle {
     color: #fff;
@@ -164,27 +151,45 @@ body {
   background-color: #598be9;
   color: #fff;
 }
-
-
 .navbar {
-  margin-bottom: 0;
-  background-color: #f4511e;
-  z-index: 9999;
-  border: 0;
-  font-size: 12px !important;
-  line-height: 1.42857143 !important;
+  margin-bottom: 5;
+  background-color:  #77c2d3;
+  font-size: 22px !important;
+  height: 150px;
   letter-spacing: 4px;
   border-radius: 0;
   font-family: Montserrat, sans-serif;
+  text-align: left;
 }
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #f4511e !important;
+  color: #1ea2f4 !important;
   background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #fff !important;
 }
+
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-style: bold;
+  color:#4d4d4f
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+iframe{
+  height: 900px;
+  width: 900px;
+
+}
+h1{
+  text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
